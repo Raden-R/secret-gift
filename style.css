@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: url(asset/bg1.jpg);
+}
+
+.struk {
+  width: 300px;
+  background: #fff;
+  background-size: cover;
+  padding: 15px;
+  margin: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header img {
+  max-width: 80px;
+}
+
+.header h2 {
+  margin: 5px 0;
+}
+
+.info {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 4px 0;
+}
+
+table th {
+  border-bottom: 1px solid #000;
+}
+
+.total {
+  border-top: 1px dashed #000;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.print-btn,
+.music-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media print {
+  .print-btn {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+  }
+}
